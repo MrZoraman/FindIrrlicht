@@ -10,7 +10,7 @@ For now it just works with windows. I'll update this when I have access to a mac
 For me, it is in `C:/lib/irrlicht-1.8.4`. This find module expects a `IRRLICHT_ROOT_DIR` variable to be set to the root irrlicht
 folder. This would mean that my `IRRLICHT_ROOT_DIR` would be `C:/lib/irrlicht-1.8.4`.
 
-From there, `IRRLICHT_INCLUDE_DIR` and `IRRLICHT_LIBRARY` are defined. A basic cmake file using this module would look like:
+From there, `Irrlicht_FOUND`, `IRRLICHT_INCLUDE_DIR` and `IRRLICHT_LIBRARY` are defined. A basic cmake file using this module would look like:
 
 ```cmake
 cmake_minimum_required(VERSION 2.8.12)
@@ -30,3 +30,5 @@ folder called `CMake` and add this before `find_package`:
 ```cmake
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/CMake")
 ```
+
+If Irrlicht is successfully found, `Irrlicht_FOUND` will bet set to `TRUE`.
