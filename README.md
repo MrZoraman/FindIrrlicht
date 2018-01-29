@@ -1,5 +1,5 @@
 # FindIrrlicht
-CMake module to find [Irrlicht](http://irrlicht.sourceforge.net/)
+CMake module to find [Irrlicht](http://irrlicht.sourceforge.net/).
 
 Disclaimer: I am still new to CMake, and this is the first CMake module I've ever written. It is possible that
 this file is quite flawed. Feedback is appreciated.
