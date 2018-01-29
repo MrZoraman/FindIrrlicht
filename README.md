@@ -6,7 +6,7 @@ this file is quite flawed. Feedback is appreciated.
 
 For now it just works with windows. I'll update this when I have access to a mac system of a linux system that's not headless.
 
-(For windows), it expects the [irrlicht sdk](http://irrlicht.sourceforge.net/?page_id=10) to be installed somewhere on the system.
+(For windows), it expects the [Irrlicht SDK](http://irrlicht.sourceforge.net/?page_id=10) to be installed somewhere on the system.
 For me, it is in `C:/lib/irrlicht-1.8.4`. This find module expects a `IRRLICHT_ROOT_DIR` variable to be set to the root irrlicht
 folder. This would mean that my `IRRLICHT_ROOT_DIR` would be `C:/lib/irrlicht-1.8.4`.
 
