@@ -1,6 +1,9 @@
 # FindIrrlicht
 FindIrrlicht cmake module.
 
+Disclaimer: I am still new to CMake, and this is the first CMake module I've ever written. It is possible that
+this file is quite flawed. Feedback is appreciated.
+
 For now it just works with windows. I'll update this when I have access to a mac system of a linux system that's not headless.
 
 (For windows), it expects the [irrlicht sdk](http://irrlicht.sourceforge.net/?page_id=10) to be installed somewhere on the system.
