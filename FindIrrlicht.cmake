@@ -17,7 +17,15 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
+#
+# Looks for Irrlicht in the path specified by the IRRLICHT_ROOT_DIR variable.
 # 
+# When found, FindIrrlicht.cmake defines the following variables:
+# - IRRLICHT_INCLUDE_DIR
+# - IRRLICHT_LIBRARY
+# - Irrlicht_FOUND
+# 
+# See the git repo for more details: https://github.com/MrZoraman/FindIrrlicht
 # 
 
 if(MSVC)
